@@ -24,6 +24,19 @@
   background-color: #FFFFFF;
   height: 55px;
   border-radius: 4px;
-
 }
 
+.botao{
+  margin-top: 65px;
+}
+
+.mat-raised-button {
+  background-color: #EC6408;
+  width: 250px;
+  font-size: 15px;
+  height: 55px;
+}
+
+.mat-raised-button mat-icon{
+  margin-right: 20px;
+}
