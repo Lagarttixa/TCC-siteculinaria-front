@@ -1,0 +1,29 @@
+.header-container{
+  background-color: #FEBD2F;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.logo-direito{
+  width: 250px;
+  height: 180px;
+}
+
+.logo-esquerdo{
+  width: 250px;
+  height: 180px;
+}
+
+.buscar mat-form-field{
+  margin-top: 70px;
+  width: 700px;
+  background-color: #FFFFFF;
+  height: 55px;
+  border-radius: 4px;
+
+}
+
