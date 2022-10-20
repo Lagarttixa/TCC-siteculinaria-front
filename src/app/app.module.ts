@@ -1,3 +1,4 @@
+import { PaginaHomeComponent } from './pagina-home/pagina-home.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,11 +12,13 @@ import {MatIconModule} from '@angular/material/icon'
 import {MatButtonModule} from '@angular/material/button';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HeaderComponent
+    HeaderComponent,
+    PaginaHomeComponent
   ],
   imports: [
     BrowserModule,
