@@ -1,3 +1,5 @@
+import { HomeService } from './server/homeService.service';
+import { HomeModel } from './model/homeModel';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagina-home.component.css']
 })
 export class PaginaHomeComponent implements OnInit {
+receita: HomeModel[] = [];
 
-  constructor() { }
+
+
+  constructor(private homeService: HomeService) { }
 
   ngOnInit(): void {
+   
   }
 
 }
