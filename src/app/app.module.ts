@@ -5,7 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon'
@@ -14,6 +13,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.component';
+import { HeaderComponent } from './shared/components/header.component';
 
 
 
@@ -23,7 +23,7 @@ import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.componen
     LoginComponent,
     HeaderComponent,
     PaginaHomeComponent,
-    AdicionarReceComponent
+    AdicionarReceComponent,
   ],
   imports: [
     BrowserModule,

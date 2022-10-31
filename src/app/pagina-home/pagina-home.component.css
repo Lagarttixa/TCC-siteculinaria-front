@@ -14,9 +14,9 @@
   margin-left: 100px;
   margin-top: 20px;
   gap: 20px;
-  border-color: black;
   border-radius: 20px;
   background-color: #FFFFFF;
+  box-shadow: gray;
 }
 
 .listaLateral{
@@ -56,7 +56,7 @@ margin-top: 70px;
 .example-card {
   display: flex;
   width: 500px;
-  max-height: 225px;
+  max-height: 257px;
 
 }
 
@@ -106,6 +106,10 @@ margin-top: 70px;
 .rendimentoTempo h3{
   margin-left: 30px;
   margin-bottom: -30px;
-  margin-top: 100px;
+  margin-top: 90px;
+}
+
+body{
+  background-color: #F2F2F2;
 }
 
