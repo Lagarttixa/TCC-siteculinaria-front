@@ -48,18 +48,21 @@ margin-left: 20px;
 
 .input-group
 {
-  width: 200px;
+  width: 300px;
+}
+input{
+  padding: 3px;
 }
 .area_input02{
   display: inline;
   position: relative;
 width: 100px;
-top: -67px;
-left: 16em;
+top: -69px;
+left: 27em;
 }
 .form-label02{
   display: inline;
-  margin-left: -10px;
+  margin-left: -20px;
   font-size: 17px;
   width: 100px;
 }
@@ -80,8 +83,8 @@ left: 16em;
 .area_input03{
   position: relative;
   margin: 10px;
-top: -134px;
-left: 28em;
+top: -138px;
+left: 40em;
 }
 .input-group03
 {
@@ -120,15 +123,15 @@ margin-left: 20px;
 
 .input-groupIngre
 {
-  width: 200px;
+  width: 320px;
 }
 
 
 .area_inputQualt{
   position: relative;
   margin: 10px;
-top: -60px;
-left: 16em;
+top: -68px;
+left: 27em;
 width: 100px;
 }
 .form-labelQualt{
@@ -146,8 +149,8 @@ width: 100px;
 .area_inputMedi{
   position: relative;
   width: 100px;
-top: -125px;
-left: 28em;
+top: -139px;
+left: 41.2em;
 }
 
 
@@ -176,11 +179,12 @@ left: 28em;
 
  .modoPreparo{
   margin-top: -100px;
+  margin-left: 20px;
  }
 .area_inputPrepa{
   display: flex;
-margin-top: 50px;
-margin-left: 20px;
+margin-top: 20px;
+margin-left: -10px;
 width:200px;
 
 }
@@ -188,7 +192,7 @@ width:200px;
 .form-labelPrepa{
 position: relative;
 font-size: 15px;
-left: -9px;
+left: -6px;
 }
 
 .group_prepa
@@ -206,7 +210,7 @@ acompamhamento */
 .area_inputAcompa{
   display: flex;
 margin-top: 28px;
-margin-left: 20px;
+margin-left: -10px;
 width:200px;
 
 }
