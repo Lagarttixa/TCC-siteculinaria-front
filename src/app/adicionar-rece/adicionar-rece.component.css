@@ -1,0 +1,223 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* adicionar img estilo */
+
+.adicionarHome{
+  display: block;
+  margin: auto auto;
+  background-color: #ffff;
+  width: 129vh;
+
+}
+
+.card{
+  margin: 20px;
+   width: 20em;
+   height: 10em;
+   background: #FFFFFF;
+   width: 16em;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.card-text{
+  text-align: center;
+  margin: 20px;
+}
+.icon_adicioImg{
+  display: block;
+  margin: auto auto;
+  width: 100px;
+}
+
+/* input text */
+
+.area_input{
+  margin: 10px;
+margin-top: 50px;
+margin-left: 20px;
+
+}
+
+.form-label{
+  font-size: 17px;
+}
+
+.input-group
+{
+  width: 200px;
+}
+.area_input02{
+  display: inline;
+  position: relative;
+width: 100px;
+top: -67px;
+left: 16em;
+}
+.form-label02{
+  display: inline;
+  margin-left: -10px;
+  font-size: 17px;
+  width: 100px;
+}
+
+.input-group02
+{
+  margin-left: 10px;
+  width: 98px;
+}
+
+.minu{
+  position: absolute;
+  font-size: 15px;
+  left: 115px;
+  top: 25px;
+}
+
+.area_input03{
+  position: relative;
+  margin: 10px;
+top: -134px;
+left: 28em;
+}
+.input-group03
+{
+  margin-left: 10px;
+  width: 98px;
+}
+.pessoas{
+  position:absolute;
+  left: 117px;
+  top: 26px;
+}
+
+/* ingredietes */
+
+.Ingredientes{
+  margin-top: -100px;
+  margin-left:13px ;
+}
+
+
+.font_ingre{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.area_input{
+  margin: 10px;
+margin-top: 50px;
+margin-left: 20px;
+}
+
+.form-labelIngre{
+  font-size: 13px;
+}
+
+.input-groupIngre
+{
+  width: 200px;
+}
+
+
+.area_inputQualt{
+  position: relative;
+  margin: 10px;
+top: -60px;
+left: 16em;
+width: 100px;
+}
+.form-labelQualt{
+  display: block;
+  margin-left: -10px;
+  font-size: 13px;
+}
+
+.input-groupQualt
+{
+  margin-left: 10px;
+  width: 98px;
+}
+
+.area_inputMedi{
+  position: relative;
+  width: 100px;
+top: -125px;
+left: 28em;
+}
+
+
+.input-group03
+{
+  margin-left: 10px;
+  width: 98px;
+}
+.form-labelMedi{
+  font-size: 13px;
+}
+
+
+ /* adicionar Ingredientes */
+
+
+ .icon_adicio{
+  position: relative;
+  left: 118px ;
+  top: -40px;
+ }
+
+/* modo Preparo */
+/*
+ */
+
+ .modoPreparo{
+  margin-top: -100px;
+ }
+.area_inputPrepa{
+  display: flex;
+margin-top: 50px;
+margin-left: 20px;
+width:200px;
+
+}
+
+.form-labelPrepa{
+position: relative;
+font-size: 15px;
+left: -9px;
+}
+
+.group_prepa
+{
+  width: 200px;
+}
+
+/*
+acompamhamento */
+
+
+.acompanhamento{
+  margin-top: -100px;
+ }
+.area_inputAcompa{
+  display: flex;
+margin-top: 28px;
+margin-left: 20px;
+width:200px;
+
+}
+
+.form-labelAcompa{
+position: relative;
+font-size: 15px;
+left: -9px;
+}
+
+.group_Acompa
+{
+  width: 200px;
+}

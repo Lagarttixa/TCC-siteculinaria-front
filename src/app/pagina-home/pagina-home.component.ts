@@ -1,6 +1,7 @@
+import { Observable } from 'rxjs';
 import { HomeService } from './server/homeService.service';
 import { HomeModel } from './model/homeModel';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pagina-home',
@@ -8,14 +9,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagina-home.component.css']
 })
 export class PaginaHomeComponent implements OnInit {
-receita: HomeModel[] = [];
+
+  receitas: HomeModel[] = [];
+
+  teste: any;
 
 
 
-  constructor(private homeService: HomeService) { }
+  constructor(private homeService: HomeService) {
+
+   }
+
+
 
   ngOnInit(): void {
-   
+    this.homeService.list().subscribe(receitas => this.receitas = receitas);
+    console.log("receitas aqui" + this.receitas)
+
+
   }
 
 }

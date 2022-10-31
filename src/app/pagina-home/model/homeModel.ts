@@ -1,6 +1,6 @@
 export interface HomeModel {
-  id: string;
-  nome: string;
-  tempoPreparo: string;
-  rendimentoQuantidade: string;
+  nome?: string;
+  id?: string;
+  tempoPreparo?: string;
+  rendimentoQuantidade?: string;
 }

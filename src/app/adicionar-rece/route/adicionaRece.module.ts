@@ -1,14 +1,14 @@
-import { PaginaHomeRoutingModule } from './pagina-home.routing';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { adicionaReRoutingModules } from './adicionaRece-routing.module';
 
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    PaginaHomeModule,
-    PaginaHomeRoutingModule
+    adicionaReRoutingModules
   ]
 })
-export class PaginaHomeModule { }
+export class adicionaReceModules { }

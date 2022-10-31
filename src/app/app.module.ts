@@ -12,6 +12,8 @@ import {MatIconModule} from '@angular/material/icon'
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
+import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.component';
 
 
 
@@ -20,7 +22,8 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    PaginaHomeComponent
+    PaginaHomeComponent,
+    AdicionarReceComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatButtonModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
