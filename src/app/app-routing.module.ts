@@ -2,6 +2,7 @@ import { PaginaHomeComponent } from './pagina-home/pagina-home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.component';
+import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
 
 const routes: Routes = [
 
@@ -18,6 +19,11 @@ const routes: Routes = [
 {
   path: 'adiciona',
   component: AdicionarReceComponent,
+},
+
+{
+  path: 'visualizar',
+  component: VisualizarReceComponent,
 }
 
 ];

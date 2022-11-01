@@ -14,6 +14,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.component';
 import { HeaderComponent } from './shared/components/header.component';
+import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
 
 
 
@@ -24,6 +25,7 @@ import { HeaderComponent } from './shared/components/header.component';
     HeaderComponent,
     PaginaHomeComponent,
     AdicionarReceComponent,
+    VisualizarReceComponent,
   ],
   imports: [
     BrowserModule,

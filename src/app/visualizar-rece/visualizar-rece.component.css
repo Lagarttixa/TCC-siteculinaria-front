@@ -1,0 +1,133 @@
+body{
+  background-color: #EEEBE1;
+}
+.adicionarHome{
+  display: block;
+  margin: auto auto;
+  margin-top: 40px;
+  background-color: #ffff;
+  width: 129vh;
+  height: 90vh;
+
+}
+
+.card{
+  margin: 20px;
+   width: 20em;
+   height: 13em;
+   background: #FFFFFF;
+   width: 16em;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-text{
+  text-align: center;
+  margin: 20px;
+}
+.icon_adicioImg{
+  display: block;
+  margin: auto auto;
+  width: 100px;
+}
+.receita_descri{
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  margin-top: -180px;
+}
+
+.titulo{
+  display: inline;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 150px;
+  font-weight: bolder;
+}
+.descri{
+  width: 380px;
+  text-align: justify;
+}
+
+/* ingredietes  */
+
+.tituIngre{
+  text-decoration: underline #FEBD2F;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.ingreArea{
+  display: flex;
+margin-top: 20px;
+width:200px;
+margin-left: 39px;
+background: #ffffff;
+border-radius: 30px;
+padding: 3px;
+border: solid 1px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bolinha{
+  width: 18px;
+height: 18px;
+border-radius: 14px;
+background: #FEBD2F;
+}
+
+.form-labelPrepa{
+position: relative;
+left: -25px;
+top: 1px;
+}
+
+.group_prepa
+{
+  width: 300px;
+  }
+  input{
+    padding: 1px;
+  }
+
+/* modo de preparo */
+
+.tituModoPre{
+  text-decoration: underline #FEBD2F;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modoPreArea{
+  display: flex;
+margin-top: 20px;
+width:200px;
+margin-left: 39px;
+background: #ffffff;
+border-radius: 30px;
+padding: 3px;
+border: solid 1px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bolinha02{
+  width: 25px;
+height: 25px;
+border-radius: 14px;
+background: #FEBD2F;
+}
+
+.form-labelModoPre{
+position: relative;
+left: 1px;
+top: 1px;
+}
+
+.group_prepa
+{
+  width: 300px;
+  }
+  input{
+    padding: 1px;
+  }
+
+
