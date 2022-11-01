@@ -16,7 +16,7 @@
 .card{
   margin: 20px;
    width: 20em;
-   height: 10em;
+   height: 13em;
    background: #FFFFFF;
    width: 16em;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -119,6 +119,7 @@ margin-left: 20px;
 
 .form-labelIngre{
   font-size: 13px;
+  margin-top: 19px;
 }
 
 .input-groupIngre
@@ -173,12 +174,24 @@ left: 41.2em;
   top: -40px;
  }
 
+ .icon_adicio02{
+  position: relative;
+  left: 198px ;
+  top: -26px;
+ }
+
+ .icon_adicio03{
+  position: relative;
+  left: 198px ;
+  top: -26px;
+ }
+
 /* modo Preparo */
 /*
  */
 
  .modoPreparo{
-  margin-top: -100px;
+  margin-top: -130px;
   margin-left: 20px;
  }
 .area_inputPrepa{
@@ -210,7 +223,7 @@ acompamhamento */
 .area_inputAcompa{
   display: flex;
 margin-top: 28px;
-margin-left: -10px;
+margin-left: 10px;
 width:200px;
 
 }
