@@ -84,9 +84,7 @@ top: 1px;
 {
   width: 300px;
   }
-  input{
-    padding: 1px;
-  }
+
 
 /* modo de preparo */
 
@@ -131,4 +129,252 @@ top: 1px;
   width: 300px;
   }
 
+  /* redimento */
+.rendimento{
 
+}
+.linhaVertical{
+  position: absolute;
+      height: 50px;
+      left: 70em;
+      top: 300px;
+    border-right: 1px solid red;
+}
+
+
+@media screen and (max-width:767px) {
+
+
+  .descri{
+
+    text-align: justify;
+    margin-left: -50px;
+    margin-top: -12px;
+  }
+
+  .linhaVertical{
+    position: absolute;
+        height: 50px;
+        left: 50em;
+        top: 300px;
+      border-right: 1px solid red;
+  }
+
+  .titulo{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bolder;
+  }
+
+  .card{
+    margin: 20px;
+     width: 14em;
+     height: 10em;
+     background: #FFFFFF;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .icon_adicioImg{
+    display: block;
+    margin: auto auto;
+    margin-top: -10px;
+    width: 50px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:500px) {
+
+  .titulo{
+    text-align: center;
+  }
+  .receita_descri{
+
+  }
+.corpo_input{
+  margin-top: 180px;
+  margin-left: 15px;
+  height: 200px;
+  width: 460px;
+   background: #ffffff;
+   border-radius: 5px;
+   border: solid black 1px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+  .descri{
+position: relative;
+top: 20%;
+    text-align: justify;
+    margin-left: 20px;
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .receita_descri{
+    position: relative;
+    top: 33%;
+  }
+  .linhaVertical{
+    position: absolute;
+        height: 100px;
+        left: 19em;
+        top:33em;
+      border-right: 1px solid rgb(0, 0, 0);
+  }
+
+  .rendimento{
+position: absolute;
+left: 65%;
+top: 79%;
+font-size: 14px;
+  }
+.TempoPreparo{
+  position: absolute;
+left: 65%;
+top: 88%;
+font-size: 13px;
+}
+.icon_rendi{
+  margin-top: -22px;
+}
+.numeRendi{
+  position: relative;
+  top: -9px;
+}
+.icon_Pre{
+  margin-top: -22px;
+}
+.numePre{
+  position: relative;
+  top: -9px;
+}
+
+
+  .titulo{
+   position: relative;
+    left: -216px;
+    top: 11px;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .card{
+    margin: 10px;
+     width: 200px;
+     margin-left: 159px;
+     height: 10em;
+     background: #FFFFFF;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .card-text{
+    text-align: center;
+    margin: 10px;
+  }
+
+  .icon_adicioImg{
+    display: block;
+    margin: auto auto;
+    margin-top: px;
+    width: 50px;
+  }
+
+  .adicionarHome{
+    display: block;
+    margin: auto auto;
+    margin-top: 40px;
+    background-color: #ffff;
+    width: 129vh;
+    height: 90vh;
+
+  }
+
+
+
+
+  /* ingredietes  */
+
+.tituIngre{
+  margin-top: 100px;
+  font-size: 17px;
+}
+
+.ingreArea{
+  margin-top: 20px;
+width:200px;
+margin-left: 39px;
+background: #ffffff;
+border-radius: 30px;
+padding: 0px;
+border: solid 1px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bolinha{
+  width: 15px;
+height: 15px;
+border-radius: 14px;
+background: #FEBD2F;
+}
+
+.form-labelPrepa{
+position: relative;
+left: -20px;
+top: 1px;
+}
+
+.group_prepa
+{
+  width: 300px;
+  }
+
+
+/* modo preparo */
+
+  .tituModoPre{
+    text-decoration: underline #FEBD2F;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+
+  .modoPreArea{
+    display: flex;
+  margin-top: 20px;
+  width:300px;
+  margin-left: 29px;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 0px;
+  height: 20px;
+  border: solid 1px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .bolinha02{
+    width: 20px;
+  height: 20px;
+  border-radius: 14px;
+  background: #FEBD2F;
+  }
+
+  .form-labelModoPre{
+  position: relative;
+  left: -1px;
+  top: -1px;
+  }
+  .numeracao{
+    position: relative;
+    left: 6px;
+    top: 2px;
+  }
+  .group_prepa
+  {
+    width: 300px;
+    }
+}
