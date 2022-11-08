@@ -1,8 +1,8 @@
-<!-- menu -->
+
 
 <!-- Imagem adicionar -->
 
-<div class="adicionarHome">
+ <div class="adicionarHome">
 
   <div class="card mb-3" style="max-width: 18rem;">
     <div class="card-body">
@@ -10,7 +10,7 @@
       <img src="\assets\adicionaImg.png" class="icon_adicioImg" alt="">
 
     </div>
-  </div>
+  </div> -->
 
     <!-- input de texto -->
 
@@ -42,7 +42,7 @@
 
     </div>
 
-  
+
 
 
 
@@ -108,3 +108,17 @@
   </div>
 
 </div>
+
+
+
+<!-- <form [formGroup]="myForm" (submit)="save()">
+  <div formArrayName="people" *ngFor="let person of myForm.get('people').controls; let i = index;">
+      <div [formGroupName]="i">
+          <input formControlName="name" placeholder="Name..." type="text">
+          <input formControlName="age" placeholder="Age..." type="number">
+          <input formControlName="address" placeholder="Address..." type="text">
+      </div>
+  </div>
+  <button (click)="addNewPerson()" type="button">Add Person</button>
+  <button type="submit">Save</button>
+</form> -->

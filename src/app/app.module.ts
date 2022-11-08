@@ -1,3 +1,4 @@
+import { FormControl } from '@angular/forms';
 import { PaginaHomeComponent } from './pagina-home/pagina-home.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -12,9 +13,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
 import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.component';
 import { HeaderComponent } from './shared/components/header.component';
 import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
+import { from } from 'rxjs';
 
 
 
@@ -36,7 +40,12 @@ import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.compo
     MatButtonModule,
     MatListModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatNativeDateModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

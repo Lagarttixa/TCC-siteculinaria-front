@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-adicionar-rece',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdicionarReceComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
 
+
+
 }
+
+
+
