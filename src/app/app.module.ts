@@ -19,6 +19,7 @@ import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.componen
 import { HeaderComponent } from './shared/components/header.component';
 import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
 import { from } from 'rxjs';
+import { InputComponent } from './shared/components/input/input.component';
 
 
 
@@ -30,6 +31,8 @@ import { from } from 'rxjs';
     PaginaHomeComponent,
     AdicionarReceComponent,
     VisualizarReceComponent,
+    InputComponent,
+
   ],
   imports: [
     BrowserModule,
