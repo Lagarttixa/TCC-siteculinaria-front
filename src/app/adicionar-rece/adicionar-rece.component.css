@@ -24,20 +24,23 @@ margin-bottom: 4%;
   width: 100px;
 }
 
-.teste{
-  display: flex;
-flex-direction: row;
-
+.tipo_rece{
+  margin-bottom: 2em;
 }
 
 .Ingre_rece{
-  margin-top: 2%;
+  margin-top: 1%;
 }
 .titulo_Ingre{
 
-  text-decoration-color:#FEBD2F ;
-  font-size: 16px;
+  font-size: 17px;
   margin-bottom: 4px;
+}
+u{
+  text-decoration-color:#FEBD2F ;
+}
+.area_titulo{
+  margin-right: 36em;
 }
 .input{
   float: left;
@@ -45,15 +48,30 @@ flex-direction: row;
     border: none;
     padding-left: 20px;
 }
-.temp_pre{
+
+.porcoes, .temp_pre{
   width: 164px;
 }
-.porcoes{
+.input_ingre{
+width: 300px;
+}
+.input_qual, .input_Medi{
   width: 164px;
 }
 
-@media screen and (min-width: 767px) {
+.Input_modoPrepa, .input_Acompa {
+  width: 320px;
+  margin-left: -290px;
+}
+.bolinha{
+  position: relative;
+  right: 299px;
+  top: 20px;
+}
+
+
+@media screen and (min-width: 500px) {
   .card{
-    margin-right: 41%;
+    margin-right: 41em;
   }
 }
