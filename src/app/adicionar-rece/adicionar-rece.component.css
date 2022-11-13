@@ -1,240 +1,77 @@
-*{
-  padding: 0px;
-  margin: 0px;
-}
 
 /* adicionar img estilo */
 
-.adicionarHome{
-  display: block;
-  margin: auto auto;
-  background-color: #ffff;
-  width: 129vh;
+.globa_div{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .card{
-  margin: 20px;
-   width: 20em;
-   height: 13em;
-   background: #FFFFFF;
-   width: 16em;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 14em;
+text-align: center;
+align-items: center;
 
-
-.card-text{
-  text-align: center;
-  margin: 20px;
+margin-bottom: 4%;
 }
-.icon_adicioImg{
-  display: block;
-  margin: auto auto;
+.img_adiciona{
   width: 100px;
 }
 
-/* input text */
-
-.area_input{
-  margin: 10px;
-margin-top: 50px;
-margin-left: 20px;
-
+.tipo_rece{
+  margin-bottom: 2em;
 }
 
-.form-label{
+.Ingre_rece{
+  margin-top: 1%;
+}
+.titulo_Ingre{
+
   font-size: 17px;
+  margin-bottom: 4px;
+}
+u{
+  text-decoration-color:#FEBD2F ;
+}
+.area_titulo{
+  margin-right: 36em;
+}
+.input{
+  float: left;
+    /* estilos adicionais */
+    border: none;
+    padding-left: 20px;
 }
 
-.input-group
-{
-  width: 300px;
+.porcoes, .temp_pre{
+  width: 164px;
 }
-input{
-  padding: 3px;
+.input_ingre{
+width: 300px;
 }
-.area_input02{
-  display: inline;
-  position: relative;
-width: 100px;
-top: -69px;
-left: 27em;
-}
-.form-label02{
-  display: inline;
-  margin-left: -20px;
-  font-size: 17px;
-  width: 100px;
+.input_qual, .input_Medi{
+  width: 164px;
 }
 
-.input-group02
-{
-  margin-left: 10px;
-  width: 98px;
-}
-
-.minu{
-  position: absolute;
-  font-size: 15px;
-  left: 115px;
-  top: 25px;
-}
-
-.area_input03{
-  position: relative;
-  margin: 10px;
-top: -138px;
-left: 40em;
-}
-.input-group03
-{
-  margin-left: 10px;
-  width: 98px;
-}
-.pessoas{
-  position:absolute;
-  left: 117px;
-  top: 26px;
-}
-
-/* ingredietes */
-
-.Ingredientes{
-  margin-top: -100px;
-  margin-left:13px ;
-}
-
-
-.font_ingre{
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-}
-
-.area_input{
-  margin: 10px;
-margin-top: 50px;
-margin-left: 20px;
-}
-
-.form-labelIngre{
-  font-size: 13px;
-  margin-top: 19px;
-}
-
-.input-groupIngre
-{
+.Input_modoPrepa, .input_Acompa {
   width: 320px;
+  margin-left: -290px;
 }
-
-
-.area_inputQualt{
+.bolinha{
   position: relative;
-  margin: 10px;
-top: -68px;
-left: 27em;
-width: 100px;
-}
-.form-labelQualt{
-  display: block;
-  margin-left: -10px;
-  font-size: 13px;
-}
-
-.input-groupQualt
-{
-  margin-left: 10px;
-  width: 98px;
-}
-
-.area_inputMedi{
-  position: relative;
-  width: 100px;
-top: -139px;
-left: 41.2em;
+  right: 299px;
+  top: 20px;
 }
 
 
-.input-group03
-{
-  margin-left: 10px;
-  width: 98px;
-}
-.form-labelMedi{
-  font-size: 13px;
-}
-
-
- /* adicionar Ingredientes */
-
-
- .icon_adicio{
-  position: relative;
-  left: 118px ;
-  top: -40px;
- }
-
- .icon_adicio02{
-  position: relative;
-  left: 198px ;
-  top: -26px;
- }
-
- .icon_adicio03{
-  position: relative;
-  left: 198px ;
-  top: -26px;
- }
-
-/* modo Preparo */
-/*
- */
-
- .modoPreparo{
-  margin-top: -130px;
-  margin-left: 20px;
- }
-.area_inputPrepa{
-  display: flex;
-margin-top: 20px;
-margin-left: -10px;
-width:200px;
-
-}
-
-.form-labelPrepa{
-position: relative;
-font-size: 15px;
-left: -6px;
-}
-
-.group_prepa
-{
-  width: 200px;
-}
-
-/*
-acompamhamento */
-
-
-.acompanhamento{
-  margin-top: -100px;
- }
-.area_inputAcompa{
-  display: flex;
-margin-top: 28px;
-margin-left: 10px;
-width:200px;
-
-}
-
-.form-labelAcompa{
-position: relative;
-font-size: 15px;
-left: -9px;
-}
-
-.group_Acompa
-{
-  width: 200px;
+@media screen and (min-width: 500px) {
+  .card{
+    margin-right: 41em;
+  }
 }

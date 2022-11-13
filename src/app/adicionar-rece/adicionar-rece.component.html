@@ -1,113 +1,49 @@
 
 
-<!-- Imagem adicionar -->
 
- <div class="adicionarHome">
+<div class="globa_div">
 
-  <div class="card mb-3" style="max-width: 18rem;">
-    <div class="card-body">
-      <p class="card-text">Adicione uma imagem</p>
-      <img src="\assets\adicionaImg.png" class="icon_adicioImg" alt="">
+  <div class="card">
 
-    </div>
-  </div> -->
+    <p>Adicionar Image</p>
 
-    <!-- input de texto -->
-
-    <div>
-<div class="area_input">
-
-    <label class="form-label"><strong>Nome da receita</strong></label>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-
-    </div>
-  </div>
-
-  <div class="area_input02">
-    <label class="form-label02"><strong>Tempo de preparo</strong></label>
-    <div class="input-group02 mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-      <span class="minu">minutos</span>
-    </div>
-  </div>
-  <div class="area_input03">
-    <label class="form-label"><strong>Porções</strong></label>
-    <div class="input-group03 mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-      <span class="pessoas">pessoas</span>
-    </div>
+    <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
 
   </div>
 
-    </div>
 
-
-
-
-
-
-<div class="Ingredientes">
-
-
-  <span class="font_ingre"><strong>Ingredientes</strong></span>
-
-
-  <label class="form-labelIngre">Ingrediente</label>
-    <div class="input-groupIngre mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-    </div>
-  </div>
-
-  <div class="area_inputQualt">
-    <label class="form-labelQualt">Quantidade</label>
-    <div class="input-groupQualt mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-    </div>
-  </div>
-  <div class="area_inputMedi">
-    <label class="form-labelMedi">Medida</label>
-    <div class="input-group03 mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-    </div>
-
-
-
- <span class="icon_adicio"> adicionar <i class="bi bi-plus-circle"></i></span>
+<div class="tipo_rece">
+  <app-input label="Nome da receita" class="input nome_rece" ></app-input>
+  <app-input label="Tempo de preparo" class="input temp_pre"></app-input>
+  <app-input label="Porções" class="input porcoes"></app-input>
 </div>
 
-<div class="modoPreparo">
+<section class="area_titulo">
+  <h2 class="titulo_Ingre"><u>Ingrediente</u></h2>
+</section>
 
-<span><strong> Modo de Preparo</strong></span>
 
-<div class="area_inputPrepa">
-  <label class="form-labelPrepa"><strong>1.</strong></label>
-  <div class="input-group_prepa mb-3">
-    <input type="text" class="form-control" aria-describedby="basic-addon1">
-    <span class="icon_adicio02"> adicionar <i class="bi bi-plus-circle"></i></span>
-  </div>
-
-  </div>
-
+<div class="Ingre_rece">
+  <app-input label="Ingrediente" class="input input_ingre" ></app-input>
+  <app-input label="Quantidade" class="input input_qual"></app-input>
+  <app-input label="Medida" class="input input_Medi"></app-input>
 </div>
 
 
-<div class="Acompanhamento">
+<section class="area_titulo">
+  <h2 class="titulo_Ingre"><u>Modo de preparo</u></h2>
+</section>
+<app-ponto class="bolinha dire1"></app-ponto>
+<app-input class="input Input_modoPrepa" ></app-input>
 
-  <span><strong>Acompanhamento</strong></span>
-
-  <div class="area_inputAcompa">
-    <label class="form-labelAcompa"><strong>1.</strong></label>
-    <div class="group_Acompa mb-3">
-      <input type="text" class="form-control" aria-describedby="basic-addon1">
-      <span class="icon_adicio03"> adicionar <i class="bi bi-plus-circle"></i></span>
-    </div>
-
-    </div>
-
-  </div>
+<section class="area_titulo">
+  <h2 class="titulo_Ingre"><u>Acompanhamento</u></h2>
+</section>
+<app-ponto class="bolinha dire"></app-ponto>
+<app-input class="input input_Acompa" ></app-input>
 
 </div>
+
 
 
 
