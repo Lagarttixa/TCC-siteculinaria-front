@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-input',
   templateUrl: './input.component.html',
@@ -8,6 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class InputComponent implements OnInit {
 @Input() label: string = '';
 @Input() type: string = '';
+@Input() tipo_tamanho:string='';
   constructor() { }
 
   ngOnInit(): void {

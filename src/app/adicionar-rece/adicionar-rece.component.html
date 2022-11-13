@@ -1,18 +1,61 @@
 
 
 
-<div class="globa_div">
 
-  <div class="card">
+  <div class="globa_div">
+    <div class="card__container">
+      <div class="card">
+        <p>Adicionar Image</p>
+        <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+      </div>
+    </div>
 
-    <p>Adicionar Image</p>
+    <div class="label__adicionar">
+      <app-input label="Nome da Receita" tipo_tamanho="input_grande"></app-input>
+      <app-input label="Tempo de Preparo" tipo_tamanho="input_menor" ></app-input>
+      <app-input label="Porções" tipo_tamanho="input_menor"></app-input>
+    </div>
 
-    <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+    <div class="labels">
+
+      <p class="header__text">Ingrediente</p>
+      <div class="label__ingrediente">
+        <app-input label="Ingrediente" tipo_tamanho="input_grande"></app-input>
+        <app-input label="Quantidade" tipo_tamanho="input_menor"></app-input>
+        <app-input label="Medida"  tipo_tamanho="input_menor"></app-input>
+
+      </div>
+
+     <div class="label__final">
+       <div class="label__preparo" >
+         <p class="header__text">Modo de preparo</p>
+         <app-input label="teste" tipo_tamanho="input_grande" ></app-input>
+       </div>
+
+       <div class="label__acompanhamento">
+         <p class="header__text">Acompanhamento</p>
+         <app-input label="teste"  tipo_tamanho="input_grande"></app-input>
+       </div>
+
+       <!-- <div class="label__botao">
+         <app-btn></app-btn>
+       </div> -->
+
+     </div>
+
+    </div>
+
+
 
   </div>
 
 
-<div class="tipo_rece">
+
+
+
+
+
+<!-- <div class="tipo_rece">
   <app-input label="Nome da receita" class="input nome_rece" ></app-input>
   <app-input label="Tempo de preparo" class="input temp_pre"></app-input>
   <app-input label="Porções" class="input porcoes"></app-input>
@@ -40,11 +83,7 @@
   <h2 class="titulo_Ingre"><u>Acompanhamento</u></h2>
 </section>
 <app-ponto class="bolinha dire"></app-ponto>
-<app-input class="input input_Acompa" ></app-input>
-
-</div>
-
-
+<app-input class="input input_Acompa" ></app-input> -->
 
 
 <!-- <form [formGroup]="myForm" (submit)="save()">

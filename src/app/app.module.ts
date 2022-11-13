@@ -1,4 +1,4 @@
-import { FormControl } from '@angular/forms';
+
 import { PaginaHomeComponent } from './pagina-home/pagina-home.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -20,10 +20,7 @@ import { HeaderComponent } from './shared/components/header.component';
 import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
 import { from } from 'rxjs';
 import { InputComponent } from './shared/components/input/input.component';
-import { PontoComponent } from './shared/components/ponto/ponto.component';
-import { BotaoComponent } from './shared/components/botao/botao.component';
-
-
+import {InputTextModule} from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -34,8 +31,7 @@ import { BotaoComponent } from './shared/components/botao/botao.component';
     AdicionarReceComponent,
     VisualizarReceComponent,
     InputComponent,
-    PontoComponent,
-    BotaoComponent,
+
 
   ],
   imports: [
@@ -51,10 +47,11 @@ import { BotaoComponent } from './shared/components/botao/botao.component';
     FormsModule,
     ReactiveFormsModule,
     MatNativeDateModule,
+    InputTextModule,
 
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
