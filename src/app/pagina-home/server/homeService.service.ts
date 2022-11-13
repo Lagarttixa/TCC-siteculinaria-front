@@ -1,4 +1,4 @@
-import { HomeModel } from './../model/homeModel';
+import { ReceitasModel } from '../model/ReceitasModel';
 import { environment } from '../../../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -15,10 +15,12 @@ export class HomeService {
 
   constructor(private httpClient: HttpClient) { }
 
-  list(){
-    return this.httpClient.get<HomeModel[]>(this.API + '/1')
+  list(): Observable<ReceitasModel[]>{
+    return this.httpClient.get<ReceitasModel[]>(this.API)
     .pipe(
-      tap(receitas=>console.log(receitas))
+      tap(
+        console.log
+        )
     );
   }
 }

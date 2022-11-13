@@ -1,6 +1,6 @@
-export interface HomeModel {
-  nome?: string;
+export interface ReceitasModel {
   id?: string;
+  nome: string;
   tempoPreparo?: string;
   rendimentoQuantidade?: string;
 }

@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.listaLateral{
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+}
+
 .mat-stroked-button{
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -19,94 +25,8 @@
   box-shadow: gray;
 }
 
-.listaLateral{
-  display: flex;
-  width: 350px;
-  flex-direction: column;
-}
-
 .mat-stroked-button:hover{
   background-color: #FEBD2F;
-}
-
-.mat-card{
-  margin-left: 30px;
-  margin-top: 30px;
-  border-radius: 15px;
-
-
-  display: flex;
-}
-
-.mat-card-header{
-  display: flex;
-  width: 120px;
-  height: 50px;
-}
-
-.mat-card-title{
-display: block;
-align-items: flex-end;
-justify-content: flex-end;
-width: 300px;
-margin-left: 240px;
-margin-top: 70px;
-}
-
-.example-card {
-  display: flex;
-  width: 500px;
-  max-height: 257px;
-
-}
-
-.imagem{
-  display: block;
-  max-width: 200px;
-  height: 500px;
-  justify-content: flex-start;
-  margin: -137px 0 0 -135px;
-
-}
-
-.example-card h2{
-  display: flex;
-  justify-content: end;
-  width: 30px;
-
-}
-
-.mat-card-content{
-  margin-top: 60px;
-  margin-left: 20px;
-
-}
-
-.footer{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-}
-.footer mat-icon{
- margin-left: 20px;
-}
-
-.footer h1{
- margin-left: 50px;
-}
-
-.footer h3{
- margin-left: 50px;
-}
-
-.rendimentoTempo{
-  display: flex;
-}
-
-.rendimentoTempo h3{
-  margin-left: 30px;
-  margin-bottom: -30px;
-  margin-top: 90px;
 }
 
 body{
