@@ -21,6 +21,11 @@ import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.compo
 import { from } from 'rxjs';
 import { InputComponent } from './shared/components/input/input.component';
 import {InputTextModule} from 'primeng/inputtext';
+import { CardComponent } from './pagina-home/card/card.component';
+import { MenuModule } from 'primeng/menu';
+
+
+
 
 @NgModule({
   declarations: [
@@ -31,6 +36,7 @@ import {InputTextModule} from 'primeng/inputtext';
     AdicionarReceComponent,
     VisualizarReceComponent,
     InputComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,6 +52,7 @@ import {InputTextModule} from 'primeng/inputtext';
     ReactiveFormsModule,
     MatNativeDateModule,
     InputTextModule,
+    MenuModule
 
 
   ],
