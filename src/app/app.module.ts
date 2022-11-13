@@ -31,8 +31,6 @@ import {InputTextModule} from 'primeng/inputtext';
     AdicionarReceComponent,
     VisualizarReceComponent,
     InputComponent,
-
-
   ],
   imports: [
     BrowserModule,

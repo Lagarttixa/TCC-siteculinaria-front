@@ -1,0 +1,84 @@
+.mat-card{
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+
+
+  display: flex;
+}
+
+.mat-card-header{
+  display: flex;
+  width: 120px;
+  height: 50px;
+}
+
+.mat-card-title{
+display: block;
+align-items: flex-end;
+justify-content: flex-end;
+max-width: 400px;
+margin-left: 240px;
+margin-top: 50px;
+}
+
+.example-card {
+  padding: 0px;
+  display: flex;
+  width: 500px;
+  max-height: 257px;
+
+}
+
+.imagem{
+  display: block;
+  max-width: 170px;
+  max-height: 300px;
+  justify-content: flex-start;
+  margin: 0px 0 0 -119px;
+
+}
+
+.example-card h2{
+  display: flex;
+  justify-content: end;
+  width: 30px;
+
+}
+
+.mat-card-content{
+  margin-top: 60px;
+  margin-left: 20px;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.footer mat-icon{
+ margin-left: 20px;
+}
+
+.footer h1{
+ margin-left: 50px;
+}
+
+.footer h3{
+ margin-left: 50px;
+}
+
+.rendimentoTempo{
+  display: flex;
+}
+
+.rendimentoTempo h3{
+  margin-left: 30px;
+  margin-bottom: -30px;
+  margin-top: 90px;
+}
+
+body{
+  background-color: #F2F2F2;
+}
