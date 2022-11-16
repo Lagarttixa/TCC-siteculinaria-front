@@ -10,10 +10,14 @@ export class AdicionarReceComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit(): void {
 
 
+
   }
+
+
 
 
 

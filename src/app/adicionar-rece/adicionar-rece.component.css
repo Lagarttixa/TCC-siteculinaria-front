@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
 
+
 }
 
 .card{
@@ -19,32 +20,43 @@ width: 14em;
 text-align: center;
 align-items: center;
 margin-right: 40em;
-margin-bottom: 4%;
 }
 
 .img_adiciona{
   width: 100px;
 }
 
+.header__text{
+font-size:16px ;
+font-weight: bolder;
+text-decoration: underline  #FEBD2F;
+}
+.legenda{
+display: flex;
+align-items: center;
+
+}
 .label__adicionar
 {
   display: flex;
   gap:20px;
 
 }
-.labels
-{
-  display: flex;
-flex-direction: column;
 
+.localBtn{
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
 }
+
+
 
 .label__ingrediente{
   display: flex;
   gap: 20px;
 }
-.label__final{
+.label__acompanhamento,
+.label__modoPreparo{
   display: flex;
-  flex-direction: column;
+  gap: 20px;
 }
-

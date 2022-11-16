@@ -23,7 +23,9 @@ import { InputComponent } from './shared/components/input/input.component';
 import {InputTextModule} from 'primeng/inputtext';
 import { CardComponent } from './pagina-home/card/card.component';
 import { MenuModule } from 'primeng/menu';
-
+import { BtnAdicionaComponent } from './shared/components/Button/btn-adiciona/btn-adiciona.component';
+import { FundoComponent } from './shared/components/fundo/fundo.component';
+import { PontoComponent } from './shared/components/ponto/ponto.component';
 
 
 
@@ -35,8 +37,11 @@ import { MenuModule } from 'primeng/menu';
     PaginaHomeComponent,
     AdicionarReceComponent,
     VisualizarReceComponent,
+    PontoComponent,
     InputComponent,
     CardComponent,
+    BtnAdicionaComponent,
+    FundoComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +62,6 @@ import { MenuModule } from 'primeng/menu';
 
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

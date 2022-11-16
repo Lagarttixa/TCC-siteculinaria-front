@@ -4,43 +4,58 @@
 
   <div class="globa_div">
     <div class="card__container">
-      <div class="card">
-        <p>Adicionar Image</p>
-        <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+        <div class="card">
+          <p>Adicionar Image</p>
+          <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+        </div>
       </div>
-    </div>
 
     <div class="label__adicionar">
-      <app-input label="Nome da Receita" tipo_tamanho="input_grande"></app-input>
-      <app-input label="Tempo de Preparo" tipo_tamanho="input_menor" ></app-input>
-      <app-input label="Porções" tipo_tamanho="input_menor"></app-input>
+      <app-input label="Nome da Receita"  placeholder="ex: churros" tipo_tamanho="input_maior"></app-input>
+      <app-input label="Tempo de Preparo" tipo_tamanho="input_menor"
+       placeholder="ex: 10"></app-input>
+       <p class="legenda">minutos</p>
+      <app-input label="Porções" tipo_tamanho="input_menor" placeholder="ex: 2" ></app-input>
+      <p class="legenda">pessoas</p>
     </div>
+
 
     <div class="labels">
 
       <p class="header__text">Ingrediente</p>
       <div class="label__ingrediente">
-        <app-input label="Ingrediente" tipo_tamanho="input_grande"></app-input>
-        <app-input label="Quantidade" tipo_tamanho="input_menor"></app-input>
-        <app-input label="Medida"  tipo_tamanho="input_menor"></app-input>
-
+        <app-input label="Ingrediente" tipo_tamanho="input_maior" placeholder="ex: chocolate"></app-input>
+        <app-input label="Quantidade" tipo_tamanho="input_menor" placeholder="ex: 1"></app-input>
+        <app-input label="Medida"  tipo_tamanho="input_menor" placeholder="ex: colher de sopa"></app-input>
+        <div class="localBtn">
+          <p>adicionar</p>
+          <app-btn-adiciona></app-btn-adiciona>
+        </div>
       </div>
 
-     <div class="label__final">
-       <div class="label__preparo" >
-         <p class="header__text">Modo de preparo</p>
-         <app-input label="teste" tipo_tamanho="input_grande" ></app-input>
-       </div>
 
-       <div class="label__acompanhamento">
-         <p class="header__text">Acompanhamento</p>
-         <app-input label="teste"  tipo_tamanho="input_grande"></app-input>
-       </div>
+      <p class="header__text">Modo de preparo</p>
+      <div class="label__modoPreparo ">
+
+         <app-input label="Modo de preparo" tipo_tamanho="input_maior"  placeholder="bater na batedeira"></app-input>
+        <div class="localBtn">
+          <p>adicionar</p>
+          <app-btn-adiciona></app-btn-adiciona>
+        </div>
+      </div>
 
 
-     </div>
+      <p class="header__text">Acompanhamento</p>
+      <div class="label__acompanhamento">
 
-    </div>
+        <app-input label="Adicionar acompanhamento ou dica sobre a receita"  tipo_tamanho="input_maior" placeholder="comer quanto quente"></app-input>
+
+        <div class="localBtn">
+          <p>adicionar</p>
+          <app-btn-adiciona></app-btn-adiciona>
+        </div>
+      </div>
+
 
 
 
