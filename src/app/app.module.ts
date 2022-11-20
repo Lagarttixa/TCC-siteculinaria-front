@@ -26,7 +26,7 @@ import { MenuModule } from 'primeng/menu';
 import { BtnAdicionaComponent } from './shared/components/Button/btn-adiciona/btn-adiciona.component';
 import { FundoComponent } from './shared/components/fundo/fundo.component';
 import { PontoComponent } from './shared/components/ponto/ponto.component';
-
+import { Element } from '@angular/compiler';
 
 
 @NgModule({
@@ -57,7 +57,8 @@ import { PontoComponent } from './shared/components/ponto/ponto.component';
     ReactiveFormsModule,
     MatNativeDateModule,
     InputTextModule,
-    MenuModule
+    MenuModule,
+    
 
 
   ],

@@ -20,6 +20,7 @@ width: 14em;
 text-align: center;
 align-items: center;
 margin-right: 40em;
+margin-bottom: 20px;
 }
 
 .img_adiciona{
@@ -49,7 +50,10 @@ align-items: center;
   margin-top: -20px;
 }
 
-
+.labels{
+  display: flex;
+  flex-direction: column;
+}
 
 .label__ingrediente{
   display: flex;
