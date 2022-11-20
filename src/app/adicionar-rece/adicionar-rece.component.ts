@@ -14,6 +14,7 @@ export class AdicionarReceComponent implements OnInit {
 
   productForm: FormGroup;
   product: FormGroup;
+  produ: FormGroup;
 
   constructor(private fb:FormBuilder){
 
@@ -24,6 +25,10 @@ export class AdicionarReceComponent implements OnInit {
 
     this.product = this.fb.group({
       quantities1: this.fb.array([]) ,
+    });
+
+    this.produ = this.fb.group({
+      quantities2: this.fb.array([]) ,
     });
 
   }
@@ -81,8 +86,8 @@ removeQuantity1(i:number) {
 
 // teste
 
-quantities1() : FormArray {
-  return this.product.get("quantities1") as FormArray
+quantities2() : FormArray {
+  return this.produ.get("quantities2") as FormArray
 
 
 
@@ -95,11 +100,11 @@ newQuantity2(): FormGroup {
 }
 
 addQuantity2() {
-  this.quantities1().push(this.newQuantity1());
+  this.quantities2().push(this.newQuantity2());
 }
 
-removeQuantity1(i:number) {
-  this.quantities1().removeAt(i);
+removeQuantity2(i:number) {
+  this.quantities2().removeAt(i);
 }
 
 

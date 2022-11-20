@@ -81,10 +81,25 @@
 
         <div class="localBtn">
           <p>adicionar</p>
-          <app-btn-adiciona></app-btn-adiciona>
+          <app-btn-adiciona  (click)="addQuantity2()"></app-btn-adiciona>
         </div>
       </div>
+      <form [formGroup]="produ">
+        <table formArrayName="quantities2">
+          <tr *ngFor="let quantity2 of quantities2().controls; let i=index" [formGroupName]="i">
+            <td>
+              <div class="label__acompanhamento">
 
+                <app-input label="Adicionar acompanhamento ou dica sobre a receita"  tipo_tamanho="input_maior" placeholder="comer quanto quente" type="text"></app-input>
+
+                </div>
+            </td>
+            <td>
+                <button (click)="removeQuantity2(i)" class="btn btn-danger">Remove</button>
+            </td>
+          </tr>
+        </table>
+      </form>
 
 
 
@@ -97,20 +112,7 @@
 <!-- teste -->
 
 
-<form [formGroup]="produ">
-  <table formArrayName="quantities1">
-    <tr *ngFor="let quantity2 of quantities1().controls; let i=index" [formGroupName]="i">
-      <td>
-        <div class="label__ingrediente">
-          <app-input label="Modo de preparo" tipo_tamanho="input_maior"  placeholder="bater na batedeira" type="text"></app-input>
-          </div>
-      </td>
-      <td>
-          <button (click)="removeQuantity2(i)" class="btn btn-danger">Remove</button>
-      </td>
-    </tr>
-  </table>
-</form>
+
 
 
 <!-- <button (click)="removeQuantity(i)" class="btn btn-danger">Remove</button> -->
