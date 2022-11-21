@@ -49,6 +49,10 @@ align-items: center;
   flex-direction: column;
   margin-top: -20px;
 }
+.area_excluir{
+  display: flex;
+flex-direction: column;
+}
 
 .labels{
   display: flex;

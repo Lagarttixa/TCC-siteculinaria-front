@@ -27,6 +27,7 @@ import { BtnAdicionaComponent } from './shared/components/Button/btn-adiciona/bt
 import { FundoComponent } from './shared/components/fundo/fundo.component';
 import { PontoComponent } from './shared/components/ponto/ponto.component';
 import { Element } from '@angular/compiler';
+import { BtnExcluirComponent } from './shared/components/Button/btn-excluir/btn-excluir.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { Element } from '@angular/compiler';
     CardComponent,
     BtnAdicionaComponent,
     FundoComponent,
+    BtnExcluirComponent,
   ],
   imports: [
     BrowserModule,

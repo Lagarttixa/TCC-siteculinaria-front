@@ -43,9 +43,10 @@
                 <app-input label="Medida"  tipo_tamanho="input_menor" placeholder="ex: colher de sopa" type="number"></app-input>
                 </div>
             </td>
-            <td>
-                <button (click)="removeQuantity(i)" class="btn btn-danger">Remove</button>
-            </td>
+            <div class="area_excuir">
+              <app-btn-excluir (click)="removeQuantity(i)"></app-btn-excluir>
+            </div>
+
           </tr>
         </table>
       </form>
@@ -63,12 +64,16 @@
         <table formArrayName="quantities1">
           <tr *ngFor="let quantity1 of quantities1().controls; let i=index" [formGroupName]="i">
             <td>
-              <div class="label__ingrediente">
+              <div
+              class="label__ingrediente">
                 <app-input label="Modo de preparo" tipo_tamanho="input_maior"  placeholder="bater na batedeira" type="text"></app-input>
                 </div>
             </td>
             <td>
-                <button (click)="removeQuantity1(i)" class="btn btn-danger">Remove</button>
+              <div class="area_excuir">
+                <app-btn-excluir (click)="removeQuantity1(i)" tipoMargi="margiTop"></app-btn-excluir>
+
+              </div>
             </td>
           </tr>
         </table>
