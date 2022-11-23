@@ -11,3 +11,74 @@ width: 30em;
 .input_menor{
 width: 10.2em;
 }
+.input_TempoPre{
+  width: 10.2em;
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .input_maior{
+      width: 18em;
+      }
+
+      .input_menor{
+        width: 7em;
+        }
+  .input_TempoPre{
+    width: 9em;
+    }
+    .input_Porcoes{
+      width: 5em;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+    .input_maior{
+      width: 17em;
+      }
+
+      .input_menor{
+        width: 7em;
+        }
+  .input_TempoPre{
+    width: 9em;
+    }
+    .input_Porcoes{
+      width: 5em;
+    }
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .input_maior{
+    width: 14em;
+    }
+
+    .input_menor{
+      width: 6.1em;
+      }
+.input_TempoPre{
+  width: 9em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .input_maior{
+    width: 9em;
+    }
+
+    .input_menor{
+      width: 5em;
+      }
+.input_TempoPre{
+  width: 8.8em;
+  }
+}

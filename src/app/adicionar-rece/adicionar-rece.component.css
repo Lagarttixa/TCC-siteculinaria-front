@@ -68,3 +68,70 @@ flex-direction: column;
   display: flex;
   gap: 20px;
 }
+
+
+@media screen and (max-width: 700px) {
+
+
+.legenda{
+  font-size: 13px;
+}
+
+.label__adicionar
+{
+  display: flex;
+  gap:10px;
+
+}
+
+
+.card{
+
+
+margin-right: 34em;
+margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .label__adicionar
+{
+  gap:6px;
+
+}
+.legenda{
+  font-size: 12px;
+}
+
+.card{
+
+
+margin-right: 20em;
+margin-bottom: 20px;
+}
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  .label__adicionar
+{
+  gap:6px;
+
+}
+.legenda{
+  font-size: 11px;
+}
+
+.card{
+
+
+margin-right: 20em;
+margin-bottom: 20px;
+}
+
+}

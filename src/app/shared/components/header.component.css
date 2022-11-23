@@ -19,7 +19,7 @@
 }
 
 .buscar mat-form-field{
-  margin-top: 70px;
+  margin-top: 64px;
   width: 700px;
   background-color: #FFFFFF;
   height: 55px;
@@ -27,7 +27,8 @@
 }
 
 .botao{
-  margin-top: 65px;
+  display: flex;
+  align-items: center;
 }
 
 .mat-raised-button {
@@ -40,3 +41,4 @@
 .mat-raised-button mat-icon{
   margin-right: 20px;
 }
+
