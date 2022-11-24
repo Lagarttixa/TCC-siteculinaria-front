@@ -40,7 +40,7 @@ align-items: center;
 .label__adicionar
 {
   display: flex;
-  gap:20px;
+  gap: 29px;
 
 }
 
@@ -69,12 +69,36 @@ flex-direction: column;
   gap: 20px;
 }
 
+@media screen and (max-width: 800px) {
+
+
+  .legenda{
+    font-size: 12px;
+  }
+
+  .label__adicionar
+  {
+    display: flex;
+    gap:10px;
+
+  }
+
+
+  .card{
+
+
+  margin-right: 32em;
+  margin-bottom: 20px;
+  }
+
+  }
+
 
 @media screen and (max-width: 700px) {
 
 
 .legenda{
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .label__adicionar
@@ -88,7 +112,7 @@ flex-direction: column;
 .card{
 
 
-margin-right: 34em;
+margin-right: 32em;
 margin-bottom: 20px;
 }
 
