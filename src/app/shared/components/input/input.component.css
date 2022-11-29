@@ -85,3 +85,17 @@ width: 10.2em;
   width: 8.8em;
   }
 }
+
+@media screen and (max-width: 500px) {
+
+  .input_maior{
+    width: 8em;
+    }
+
+    .input_menor{
+      width: 5em;
+      }
+.input_TempoPre{
+  width: 8.8em;
+  }
+}

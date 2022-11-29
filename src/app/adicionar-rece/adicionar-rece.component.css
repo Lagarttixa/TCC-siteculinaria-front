@@ -19,7 +19,7 @@ border-radius: 10px;
 width: 14em;
 text-align: center;
 align-items: center;
-margin-right: 40em;
+margin-right: 50em;
 margin-bottom: 20px;
 }
 
@@ -109,6 +109,7 @@ flex-direction: column;
 }
 
 
+
 .card{
 
 
@@ -158,4 +159,33 @@ margin-right: 20em;
 margin-bottom: 20px;
 }
 
+}
+
+@media screen and (max-width: 400px) {
+
+  .label__adicionar
+{
+  gap:6px;
+
+}
+.legenda{
+  font-size: 0;
+}
+
+.card{
+
+
+margin-right: 12em;
+margin-bottom: 20px;
+}
+
+.label__ingrediente{
+  display: flex;
+  gap: 5px;
+}
+.label__acompanhamento,
+.label__modoPreparo{
+  display: flex;
+  gap: 20px;
+}
 }
