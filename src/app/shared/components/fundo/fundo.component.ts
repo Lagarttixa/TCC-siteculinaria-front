@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class FundoComponent implements OnInit {
 @Input() Ingrediente:string = "loading...";
+@Input()tipo_tamanho:string="";
   constructor() { }
 
   ngOnInit(): void {
