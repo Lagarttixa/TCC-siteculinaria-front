@@ -12,14 +12,14 @@
 .mat-stroked-button{
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
 
-  height: 60px;
+  height: 53px;
   align-items: flex-start;
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: 1px;
+  margin-top: 8px;
   gap: 20px;
   border-radius: 20px;
   background-color: #FFFFFF;
@@ -35,7 +35,35 @@ body{
 
 }
 
-@media screen and (max-width:500px) {
+
+
+.exit_icon{
+  color: white;
+}
+
+
+
+.modal{
+width: 300px;
+}
+.btn{
+  width: 80px;
+  margin-top:8px;
+}
+.modal-content{
+width: 300px;
+background-color: #FEBD2F;
+}
+.list-group-item:hover{
+
+background-color:rgba(126, 252, 0, 0.196);
+cursor: pointer;
+}
+.list-group-item{
+background-color: #C06027;
+}
+
+/* @media screen and (max-width:500px) {
 
 
 
@@ -61,9 +89,9 @@ body{
     box-shadow: gray;
   }
 
-}
+} */
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
 
   .listaLateral{
     display: flex;
@@ -115,4 +143,4 @@ body{
   }
 
 
-}
+} */

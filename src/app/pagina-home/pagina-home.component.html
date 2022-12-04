@@ -1,6 +1,6 @@
 <body>
 
-<div class="tudo">
+<!-- <div class="tudo">
 <div class="listaLateral">
   <button mat-stroked-button><img src="../../assets/tortinha.svg" style="width: 25%; margin-right: 10px;"/>Bolos e tortas</button>
   <button mat-stroked-button><img src="../../assets/carne.svg" style="width: 30%; margin-right: 10px;"/>Carnes</button>
@@ -10,9 +10,41 @@
   <button mat-stroked-button><img src="../../assets/bebidas.svg" style="width: 30%; margin-right: 10px;"/>Bebidas</button>
   <button mat-stroked-button><img src="../../assets/doces-sobremesas.svg" style="width: 20%; margin-right: 10px;"/>Doce e sobremesas</button>
   <button mat-stroked-button><img src="../../assets/lanches.svg" style="width: 30%; margin-right: 10px;"/>Lanches</button>
+</div> -->
+
+
+
+<nav class="navbar " >
+    <button class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="../../assets/arrow-right.svg" alt="">
+    </button>
+  <app-card></app-card>
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Listas</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="tudo">
+          <div class="listaLateral">
+            <button mat-stroked-button><img src="../../assets/tortinha.svg" style="width: 25%; margin-right: 10px;"/>Bolos e tortas</button>
+            <button mat-stroked-button><img src="../../assets/carne.svg" style="width: 30%; margin-right: 10px;"/>Carnes</button>
+            <button mat-stroked-button><img src="../../assets/aves.svg" style="width: 30%; margin-right: 10px;"/>Aves</button>
+            <button mat-stroked-button><img src="../../assets/saladas-molhos.svg" style="width: 20%; margin-right: 10px;"/>Saladas e molhos</button>
+            <button mat-stroked-button><img src="../../assets/massas.svg" style="width: 30%; margin-right: 10px;"/>Massas</button>
+            <button mat-stroked-button><img src="../../assets/bebidas.svg" style="width: 30%; margin-right: 10px;"/>Bebidas</button>
+            <button mat-stroked-button><img src="../../assets/doces-sobremesas.svg" style="width: 20%; margin-right: 10px;"/>Doce e sobremesas</button>
+            <button mat-stroked-button><img src="../../assets/lanches.svg" style="width: 30%; margin-right: 10px;"/>Lanches</button>
+          </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<app-card></app-card>
-
 </div>
 </body>
