@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BotaoComponent } from './botao.component';
+import { BtnExcluirComponent } from './btn-excluir.component';
 
-describe('BotaoComponent', () => {
-  let component: BotaoComponent;
-  let fixture: ComponentFixture<BotaoComponent>;
+describe('BtnExcluirComponent', () => {
+  let component: BtnExcluirComponent;
+  let fixture: ComponentFixture<BtnExcluirComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BotaoComponent ]
+      declarations: [ BtnExcluirComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BotaoComponent);
+    fixture = TestBed.createComponent(BtnExcluirComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,5 +1,6 @@
 .tudo{
   display: flex;
+
 }
 
 .listaLateral{
@@ -31,5 +32,87 @@
 
 body{
   background-color: #F2F2F2;
+
 }
 
+@media screen and (max-width:500px) {
+
+
+
+  .listaLateral{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+  }
+  .mat-stroked-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+
+    height: 46px;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: gray;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  .listaLateral{
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+  }
+  .mat-stroked-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+
+    height: 55px;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: gray;
+  }
+
+
+}
+
+@media screen and (min-width:400px) {
+
+  .listaLateral{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+  }
+  .mat-stroked-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+    height: 55px;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: gray;
+  }
+
+
+}

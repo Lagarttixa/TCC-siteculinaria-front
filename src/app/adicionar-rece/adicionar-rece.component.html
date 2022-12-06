@@ -1,18 +1,111 @@
 
 
 
-<div class="globa_div">
 
-  <div class="card">
+   <div class="globa_div">
+    <div class="card__container">
+        <div class="card">
+          <p>Adicionar Image</p>
+          <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+        </div>
+      </div>
 
-    <p>Adicionar Image</p>
+    <div class="label__adicionar">
+      <app-input label="Nome da Receita"  placeholder="ex: churros" tipo_tamanho="input_maior" type="text"></app-input>
+      <app-input label="Tempo de Preparo" tipo_tamanho="input_TempoPre"
+       placeholder="ex: 10" type="number"></app-input>
+       <p class="legenda">minutos</p>
+      <app-input label="Porções" tipo_tamanho="input_Porcoes" placeholder="ex: 2" type="number"></app-input>
+      <p class="legenda">pessoas</p>
+    </div>
 
-    <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+
+    <div class="labels">
+
+      <p class="header__text">Ingrediente</p>
+      <div class="label__ingrediente">
+        <app-input label="Ingrediente" tipo_tamanho="input_maior" placeholder="ex: chocolate" type="text"></app-input>
+        <app-input label="Quantidade" tipo_tamanho="input_menor" placeholder="ex: 1" type="number"></app-input>
+        <app-input label="Medida"  tipo_tamanho="input_menor" placeholder="ex: colher de sopa" type="number"></app-input>
+        <div class="localBtn">
+          <p>adicionar</p>
+          <app-btn-adiciona (click)="addQuantity()" ></app-btn-adiciona>
+        </div>
+      </div>
+      <form [formGroup]="productForm">
+
+        <table formArrayName="quantities">
+          <tr *ngFor="let quantity of quantities().controls; let i=index" [formGroupName]="i">
+            <td>
+              <div class="label__ingrediente">
+                <app-input label="Ingrediente" tipo_tamanho="input_maior" placeholder="ex: chocolate" type="text"></app-input>
+                <app-input label="Quantidade" tipo_tamanho="input_menor" placeholder="ex: 1" type="number"></app-input>
+                <app-input label="Medida"  tipo_tamanho="input_menor" placeholder="ex: colher de sopa" type="number"></app-input>
+                </div>
+            </td>
+            <div class="area_excuir">
+              <app-btn-excluir (click)="removeQuantity(i)"></app-btn-excluir>
+            </div>
+
+          </tr>
+        </table>
+      </form>
+
+      <p class="header__text">Modo de preparo</p>
+      <div class="label__modoPreparo ">
+
+         <app-input label="Modo de preparo" tipo_tamanho="input_maior"  placeholder="bater na batedeira" type="text"></app-input>
+        <div class="localBtn">
+          <p>adicionar</p>
+          <app-btn-adiciona  (click)="addQuantity1()"></app-btn-adiciona>
+        </div>
+      </div>
+      <form [formGroup]="product">
+        <table formArrayName="quantities1">
+          <tr *ngFor="let quantity1 of quantities1().controls; let i=index" [formGroupName]="i">
+            <td>
+              <div
+              class="label__ingrediente">
+                <app-input label="Modo de preparo" tipo_tamanho="input_maior"  placeholder="bater na batedeira" type="text"></app-input>
+                </div>
+            </td>
+            <td>
+              <div class="area_excuir">
+                <app-btn-excluir (click)="removeQuantity1(i)" tipoMargi="margiTop"></app-btn-excluir>
+
+              </div>
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <p class="header__text">Acompanhamento</p>
+      <div class="label__acompanhamento">
+
+        <app-input label="Adicionar acompanhamento ou dica sobre a receita"  tipo_tamanho="input_maior" placeholder="comer quanto quente" type="text"></app-input>
+      </div>
+
+
+
 
   </div>
 
 
-<div class="tipo_rece">
+
+
+
+<!-- teste -->
+
+
+
+
+
+<!-- <button (click)="removeQuantity(i)" class="btn btn-danger">Remove</button> -->
+
+
+
+
+<!-- <div class="tipo_rece">
   <app-input label="Nome da receita" class="input nome_rece" ></app-input>
   <app-input label="Tempo de preparo" class="input temp_pre"></app-input>
   <app-input label="Porções" class="input porcoes"></app-input>
@@ -29,7 +122,6 @@
   <app-input label="Medida" class="input input_Medi"></app-input>
 </div>
 
-
 <section class="area_titulo">
   <h2 class="titulo_Ingre"><u>Modo de preparo</u></h2>
 </section>
@@ -40,9 +132,23 @@
   <h2 class="titulo_Ingre"><u>Acompanhamento</u></h2>
 </section>
 <app-ponto class="bolinha dire"></app-ponto>
-<app-input class="input input_Acompa" ></app-input>
+<app-input class="input input_Acompa" ></app-input> -->
 
-</div>
+
+
+
+
+
+
+
+  <!-- segundo form -->
+
+
+
+
+
+
+
 
 
 

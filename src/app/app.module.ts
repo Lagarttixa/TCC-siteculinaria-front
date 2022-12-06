@@ -19,8 +19,13 @@ import { AdicionarReceComponent } from './adicionar-rece/adicionar-rece.componen
 import { HeaderComponent } from './shared/components/header.component';
 import { VisualizarReceComponent } from './visualizar-rece/visualizar-rece.component';
 import { from } from 'rxjs';
+import { InputComponent } from './shared/components/input/input.component';
 import { CardComponent } from './pagina-home/card/card.component';
-
+import { BtnAdicionaComponent } from './shared/components/Button/btn-adiciona/btn-adiciona.component';
+import { FundoComponent } from './shared/components/fundo/fundo.component';
+import { PontoComponent } from './shared/components/ponto/ponto.component';
+import { Element } from '@angular/compiler';
+import { BtnExcluirComponent } from './shared/components/Button/btn-excluir/btn-excluir.component';
 
 
 @NgModule({
@@ -31,7 +36,13 @@ import { CardComponent } from './pagina-home/card/card.component';
     PaginaHomeComponent,
     AdicionarReceComponent,
     VisualizarReceComponent,
-    CardComponent
+    CardComponent,
+    PontoComponent,
+    InputComponent,
+    CardComponent,
+    BtnAdicionaComponent,
+    FundoComponent,
+    BtnExcluirComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,6 +57,8 @@ import { CardComponent } from './pagina-home/card/card.component';
     FormsModule,
     ReactiveFormsModule,
     MatNativeDateModule,
+
+
 
 
   ],
