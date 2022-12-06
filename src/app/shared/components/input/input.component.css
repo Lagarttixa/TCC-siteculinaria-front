@@ -18,6 +18,22 @@ width: 10.2em;
       width: 5em;
     }
 
+    @media screen and (max-width: 1000px) {
+
+      .input_maior{
+        width: 27em;
+        }
+
+        .input_menor{
+          width: 10em;
+          }
+    .input_TempoPre{
+      width: 10em;
+      }
+    }
+
+
+
   @media screen and (max-width: 900px) {
 
     .input_maior{
@@ -75,20 +91,6 @@ width: 10.2em;
 @media screen and (max-width: 500px) {
 
   .input_maior{
-    width: 9em;
-    }
-
-    .input_menor{
-      width: 5em;
-      }
-.input_TempoPre{
-  width: 8.8em;
-  }
-}
-
-@media screen and (max-width: 500px) {
-
-  .input_maior{
     width: 8em;
     }
 
@@ -98,4 +100,10 @@ width: 10.2em;
 .input_TempoPre{
   width: 8.8em;
   }
+  .input_TempoPre{
+  width: 10.2em;
+  }
+    .input_Porcoes{
+      width: 5em;
+    }
 }

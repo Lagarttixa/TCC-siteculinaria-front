@@ -69,6 +69,37 @@ flex-direction: column;
   gap: 20px;
 }
 
+
+@media screen and (max-width: 1000px) {
+
+
+  .legenda{
+    font-size: 12px;
+  }
+
+  .label__adicionar
+  {
+    display: flex;
+    gap:20px;
+
+  }
+  .label__ingrediente{
+    display: flex;
+    gap: 9px;
+  }
+
+
+  .card{
+
+
+  margin-right: 48em;
+  margin-bottom: 20px;
+  }
+
+  }
+
+
+
 @media screen and (max-width: 800px) {
 
 
