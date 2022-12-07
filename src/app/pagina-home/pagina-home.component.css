@@ -1,11 +1,22 @@
 .tudo{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
+.receitas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+
+}
+
+
 .listaLateral{
   display: flex;
-  width: 350px;
+  width: 40px;
   flex-direction: column;
 }
 
@@ -63,7 +74,7 @@ body{
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
 
   .listaLateral{
     display: flex;
@@ -90,7 +101,7 @@ body{
 
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:500px) {
 
   .listaLateral{
     display: flex;

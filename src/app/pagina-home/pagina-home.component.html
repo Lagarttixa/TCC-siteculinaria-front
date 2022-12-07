@@ -12,7 +12,11 @@
   <button mat-stroked-button><img src="../../assets/lanches.svg" style="width: 30%; margin-right: 10px;"/>Lanches</button>
 </div>
 
-<app-card></app-card>
+<div class="receitas" *ngFor="let receita of receitas">
+  <app-card [receita]="receita"></app-card>
+</div>
+
 
 </div>
+
 </body>

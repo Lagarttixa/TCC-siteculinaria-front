@@ -1,6 +1,6 @@
-<div class="globa_div">
+<div class="globa_div" >
 
-<h2 class="titulo">Nome Receita</h2>
+<h2 class="titulo"> {{receita.nome}}</h2>
   <div class="card__container">
     <div class="card">
       <p>Adicionar Image</p>
@@ -19,12 +19,17 @@
       <div class="icons">
         <div class="Rendime_icon">
           <p>Rendimento</p>
+          <div class="row">
         <img src="assets/people-fill.svg" alt="" class="img_icon">
-        </div>
+        <p>{{receita.rendimentoQuantidade}}</p>
+      </div>
+      </div>
         <div class="Rendime_icon">
           <p>Tempo de preparo</p>
+          <div class="row">
         <img src="assets/clock.svg" alt="" class="img_icon">
-
+        <p>{{receita.tempoPreparo}} m</p>
+      </div>
         </div>
     </div>
 
@@ -51,6 +56,7 @@
     </div>
 
 
+</div>
 </div>
 
 

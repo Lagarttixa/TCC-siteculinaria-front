@@ -22,7 +22,7 @@ const routes: Routes = [
 },
 
 {
-  path: 'visualizar',
+  path: 'visualizar/:id',
   component: VisualizarReceComponent,
 }
 

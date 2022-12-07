@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReceitaService } from '../services/receitaService.service';
+import { ReceitasModel } from './model/ReceitasModel';
 
 @Component({
   selector: 'app-pagina-home',
@@ -7,15 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaginaHomeComponent implements OnInit {
 
+  receitas: ReceitasModel[] = [];
 
-  constructor() {
+  constructor(private receitaService: ReceitaService) {
 
    }
 
 
 
   ngOnInit(): void {
-
+    this.receitaService.getAllReceitas().subscribe(data=>{
+      this.receitas = data;
+    })
   }
 
 }

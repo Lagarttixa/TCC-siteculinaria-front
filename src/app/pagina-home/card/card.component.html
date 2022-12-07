@@ -1,20 +1,22 @@
-<div *ngFor="let receita of receitas" class="teste">
-  <mat-card  class="example-card" (click)="vizualizar()">
-    <mat-card-header>
-      <mat-card-title>{{receita.nome}}</mat-card-title>
-    </mat-card-header>
-    <img class="imagem" src="https://colegiocpi.com/portal/wp-content/themes/bootstrap-basic/img/semimagem.png" alt="foto da receita">
-    <mat-card-content>
-      <div class="rendimentoTempo">
-        <h3>Rendimento</h3>
-        <h3>Tempo de preparo</h3>
-      </div>
-      <div class="footer">
-        <h3>{{receita.rendimentoQuantidade}}</h3>
-        <mat-icon>person</mat-icon>
-        <h1>|</h1>
-        <h3>{{receita.tempoPreparo}} min</h3>
-      </div>
-    </mat-card-content>
-  </mat-card>
-</div>
+  <div class="carde" [routerLink]="['/visualizar/'+ receita.id]">
+    <mat-card class="example-card" >
+      <mat-card-header>
+        <mat-card-title>{{receita.nome}}</mat-card-title>
+      </mat-card-header>
+      <img class="imagem" src="https://colegiocpi.com/portal/wp-content/themes/bootstrap-basic/img/semimagem.png"
+        alt="foto da receita">
+      <mat-card-content>
+        <div class="rendimentoTempo">
+          <h3>Rendimento</h3>
+          <h3>Tempo de preparo</h3>
+        </div>
+        <div class="footer">
+          <h3>{{receita.rendimentoQuantidade}}</h3>
+          <mat-icon>person</mat-icon>
+          <h1>|</h1>
+          <h3>{{receita.tempoPreparo}} min</h3>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
