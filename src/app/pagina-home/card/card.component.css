@@ -1,28 +1,158 @@
-.mat-card{
+
+*{
+  font-family: Segoe UI;
+}
+
+body {
+  margin: 0;
+  color: #FFF;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgb(216, 209, 199), rgb(211, 203, 203));
+  transition: all .5s;
+}
+
+.card:hover {
+  background-image: linear-gradient(#cf7713, #cea568);
+}
+
+.card .img {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-image: url('../../../assets/adicionaImg.png');
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+  z-index: 2;
+  position: relative;
+  opacity: .8;
+}
+
+.card .img span {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 150px;
+  font-style: italic;
+  transition: all .5s;
+  
+}
+
+.card:hover .img {
+  width: 430px;
+  opacity: 1;
+}
+
+.card:hover .img span {
+  font-size: 28px;
+}
+
+.card .content {
+  display: flex;
+  padding: 0px 20px;
+  height: 0;
+  opacity: 0;
+  transition: all .5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: space-between;
+  transform: translateY(30px);
+  flex-direction: column;
+}
+
+.card:hover .content {
+  height: 260px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card .content p {
+  margin: 0;
+}
+
+.card .content .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .content .desc {
+  font-size: 14px;
+  font-weight: 100;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.card .arrow {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all .5s;
+}
+
+.card:hover .arrow {
+  transform: rotate(0);
+}
+
+.card .arrow span {
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mat-card{
   margin-left: 30px;
   margin-top: 30px;
   border-radius: 15px;
   display: flex;
 }
 
-.carde{
+.titulo .mat-card-title{
   display: flex;
-  flex-direction: row;
+  margin-left: 240px;
+  max-width: 1000px;
+  max-height: 500px;
 }
 
 .mat-card-header{
   display: flex;
   width: 120px;
   height: 50px;
-}
-
-.mat-card-title{
-display: block;
-align-items: flex-end;
-justify-content: flex-end;
-max-width: 400px;
-margin-left: 240px;
-margin-top: 50px;
 }
 
 .example-card {
@@ -84,4 +214,4 @@ margin-top: 50px;
 
 body{
   background-color: #F2F2F2;
-}
+} */

@@ -1,5 +1,3 @@
-<body>
-
 <div class="tudo">
 <div class="listaLateral">
   <button mat-stroked-button><img src="../../assets/tortinha.svg" style="width: 25%; margin-right: 10px;"/>Bolos e tortas</button>
@@ -12,11 +10,12 @@
   <button mat-stroked-button><img src="../../assets/lanches.svg" style="width: 30%; margin-right: 10px;"/>Lanches</button>
 </div>
 
-<div class="receitas" *ngFor="let receita of receitas">
-  <app-card [receita]="receita"></app-card>
+<div>
+  <div class="receitas">
+  <app-card *ngFor="let receita of receitas" [receita]="receita"></app-card>
+</div>
 </div>
 
 
 </div>
 
-</body>

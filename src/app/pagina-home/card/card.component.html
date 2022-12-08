@@ -1,7 +1,31 @@
-  <div class="carde" [routerLink]="['/visualizar/'+ receita.id]">
-    <mat-card class="example-card" >
+
+    <body>
+
+      <div class="container">
+          <div class="card" [routerLink]="['/visualizar/'+ receita.id]">
+              <div class="img">
+                  <span>{{receita.nome}}</span>
+              </div>
+
+              <div class="content">
+                  <div class="title">Rendimento</div>
+                  <div class="dados">{{receita.rendimentoQuantidade}} porções</div>
+                  <div class="title">Tempo Preparo</div>
+                  <div class="dados">{{receita.tempoPreparo}} minutos</div>
+              </div>
+
+              <div class="arrow">
+                  <span>&#8673;</span>
+              </div>
+          </div>
+      </div>
+
+  </body>
+    <!-- <mat-card class="example-card" >
       <mat-card-header>
+        <div class="titulo">
         <mat-card-title>{{receita.nome}}</mat-card-title>
+      </div>
       </mat-card-header>
       <img class="imagem" src="https://colegiocpi.com/portal/wp-content/themes/bootstrap-basic/img/semimagem.png"
         alt="foto da receita">
@@ -17,6 +41,6 @@
           <h3>{{receita.tempoPreparo}} min</h3>
         </div>
       </mat-card-content>
-    </mat-card>
-  </div>
+    </mat-card> -->
+
 

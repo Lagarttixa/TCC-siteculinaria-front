@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Route, Router } from '@angular/router';
 
-import { ReceitasModel } from '../model/ReceitasModel';
+import { ReceitasModel } from '../../model/ReceitasModel';
 import { ReceitaService } from '../../services/receitaService.service';
 
 @Component({
@@ -14,9 +14,7 @@ export class CardComponent implements OnInit {
 
   constructor(private receitaService: ReceitaService, private router: Router) {}
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
   vizualizar() {
     this.router.navigateByUrl('/vizualizar');

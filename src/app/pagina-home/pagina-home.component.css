@@ -1,23 +1,32 @@
 .tudo{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .receitas{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 40px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+
 
 }
 
 
 .listaLateral{
   display: flex;
-  width: 40px;
   flex-direction: column;
+  width: 20%;
+  min-width: 200px;
+}
+
+.listaLateral button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mat-stroked-button{
