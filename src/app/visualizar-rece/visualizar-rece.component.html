@@ -1,0 +1,142 @@
+<div class="globa_div">
+
+  <h2 class="titulo"> {{receita.nome}}</h2>
+  <div class="card__container">
+    <div class="card">
+      <p>Adicionar Image</p>
+      <img src="/assets\adicionaImg.png" alt="" class="img_adiciona">
+    </div>
+    <div>
+
+    </div>
+    <div class="container">
+
+      <div class="info">
+
+        <p>{{receita.info}}</p>
+      </div>
+      <div class="linha-vertical"></div>
+      <div class="icons">
+        <div class="Rendime_icon">
+          <p>Rendimento</p>
+          <div class="row">
+            <img src="assets/people-fill.svg" alt="" class="img_icon">
+            <p>{{receita.rendimentoQuantidade}}</p>
+          </div>
+        </div>
+        <div class="Rendime_icon">
+          <p>Tempo de preparo</p>
+          <div class="row">
+            <img src="assets/clock.svg" alt="" class="img_icon">
+            <p>{{receita.tempoPreparo}} m</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="fundos">
+
+    <p class="header__text">Ingrediente</p>
+
+    <div class="fundo_ingrediente">
+      <ul>
+        <li *ngFor="let ingrediente of receita.ingredientes">{{ingrediente.nome}} - {{ingrediente.quantidadeMedida}}
+          {{ingrediente.medidas}}</li>
+      </ul>
+
+    </div>
+
+    <p class="header__text">Modo de preparo</p>
+    <div class="fundo_modoPrepa">
+      <ol>
+        <li *ngFor="let etapa of etapasPreparo">{{etapa}}</li>
+      </ol>
+      <!-- <div class="bolinha">
+        <app-ponto numer="1."></app-ponto>
+      </div>
+      <h3></h3>
+      <app-fundo tipo_tamanho="tipo_Prepa"></app-fundo> -->
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="adicionarHome">
+
+  <div class="card mb-3" style="max-width: 18rem;">
+    <div class="card-body">
+      <p class="card-text">Adicione uma imagem</p>
+      <img src="\assets\adicionaImg.png" class="icon_adicioImg" alt="">
+
+    </div>
+  </div>
+
+  <span class="receita_descri">
+    <h1 class="titulo">Nome da receita</h1>
+  <br>
+</span>
+  <div class="corpo_input">
+
+
+    <p class="descri">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, placeat assumenda suscipit nobis, voluptate odit dolorum iusto sapiente distinctio hic possimus dicta reiciendis ullam. Minus eos ipsa sed illo pariatur.</p>
+
+
+  <div class="linhaVertical">
+  </div>
+
+  <div class="rendimento">
+    <p>Rendimento</p>
+  <img src="/assets/people-fill.svg" alt="" class="icon_rendi">
+  <span class="numeRendi">0</span>
+  </div>
+
+  <div class="TempoPreparo">
+    <p >Tempo de preparo</p>
+  <img src="/assets/clock.svg" alt="" class="icon_Pre">
+  <span class="numePre">0</span>
+  </div>
+</div>
+
+
+<h2 class="tituIngre">Ingredientes</h2>
+
+<div class="Ingrediente">
+
+  <div class="ingreArea">
+    <label class="form-labelPrepa"><strong><div class="bolinha"></div></strong></label>
+    <div class="input-group_prepa mb-3">
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <h2 class="tituModoPre">Modo de preparo</h2>
+
+<div class="modoPrepa">
+
+  <div class="modoPreArea">
+    <label class="form-labelModoPre"><strong><div class="bolinha02" ><span class="numeracao"> 1.</span></div></strong></label>
+    <div class="input-group_prepa mb-3">
+    </div> -->

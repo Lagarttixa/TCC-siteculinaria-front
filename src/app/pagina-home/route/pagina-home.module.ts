@@ -1,3 +1,4 @@
+import { PaginaHomeRoutingModule } from './pagina-home.routing';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -6,7 +7,8 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule,
-    PaginaHomeModule
+    PaginaHomeModule,
+    PaginaHomeRoutingModule
   ]
 })
 export class PaginaHomeModule { }

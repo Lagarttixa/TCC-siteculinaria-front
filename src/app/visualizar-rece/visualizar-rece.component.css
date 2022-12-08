@@ -1,0 +1,264 @@
+.globa_div{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.titulo{
+  display: flex;
+  margin-left: 16em;
+  margin-top: 1em;
+  font-size: 19px;
+  font-weight: bolder;
+
+}
+
+.card{
+
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 14em;
+  text-align: center;
+  align-items: center;
+  margin-right: 40em;
+
+  margin-bottom: 4%;
+
+
+
+}
+
+.img_adiciona{
+  width: 100px;
+}
+
+.card__container{
+  display: flex;
+
+
+}
+
+.container{
+  display: flex;
+  margin-left: -540px;
+  height: 150px;
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 480px;
+}
+.info{
+  width:280px;
+}
+.linha-vertical {
+  height: 100px;
+  margin-top: 14px;
+  border-right: 1px solid black;
+   margin-left: 15px;
+
+}
+.icons{
+  margin-left: 30px;
+}
+.Rendime_icon{
+  margin-top: 9px;
+  font-weight: bold;
+  text-align: left;
+}
+.img_icon{
+width: 20px;
+}
+.fundos{
+
+  margin-left: -200px;
+}
+.header__text{
+  font-size:16px ;
+  font-weight: bolder;
+  text-decoration: underline  #FEBD2F;
+  }
+  .fundo_modoPrepa,
+  .fundo_ingrediente
+  {
+    display: flex;
+
+    gap: 10px;
+  }
+
+  .bolinha{
+    display: flex;
+    align-items: center;
+
+  }
+
+  @media screen and (max-width:700px) {
+
+    .container{
+      display: flex;
+      margin-left: -550px;
+      height: 160px;
+      padding: 15px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      width: 420px;
+    }
+
+    .info{
+      width:280px;
+      font-size: 12px;
+      text-align: justify;
+    }
+
+    .Rendime_icon{
+      margin-top: 6px;
+      font-size: 12px;
+      font-weight: bold;
+      width: 94px;
+
+    }
+    .img_icon{
+      width: 18px;
+      }
+
+  }
+
+
+  @media screen and ( max-width: 500px) {
+
+
+    .card{
+
+      display: flex;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      width: 10em;
+      text-align: center;
+      align-items: center;
+      margin-right: 44em;
+      margin-bottom: 4%;
+
+    }
+
+    .container{
+      display: flex;
+      margin-left: -610px;
+      height: 160px;
+      padding: 15px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      width: 340px;
+    }
+
+
+    .info{
+      width:280px;
+      font-size: 10px;
+      text-align: justify;
+    }
+
+    .Rendime_icon{
+      margin-top: 9px;
+      font-size: 12px;
+      margin-right: -6px;
+      font-weight: bold;
+      width: 98px;
+    }
+    .img_icon{
+      width: 16px;
+      }
+
+  .fundo_modoPrepa,
+  .fundo_ingrediente
+  {
+    display: flex;
+  width: 220px;
+  }
+
+  .titulo{
+    margin-left: 10em;
+  }
+  }
+
+  @media screen and ( max-width: 400px) {
+
+
+    .card{
+
+      display: flex;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      width: 8em;
+      text-align: center;
+      align-items: center;
+      margin-right: 44.6em;
+      margin-bottom: 4%;
+
+    }
+    .img_adiciona{
+      width: 70%;
+    }
+
+    .container{
+      display: flex;
+      margin-left: -622px;
+      height: 155px;
+      padding: 16px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      width: 255px;
+    }
+
+
+    .info{
+      font-size: 8px;
+      margin-left: -12px;
+    }
+
+    .Rendime_icon{
+      margin-top: 9px;
+      font-size: 9px;
+      margin-right: -25px;
+      font-weight: bold;
+      width: 92px;
+    }
+    .img_icon{
+      width: 15px;
+      }
+
+  .fundo_modoPrepa,
+  .fundo_ingrediente
+  {
+    display: flex;
+  width: 220px;
+  }
+
+  .linha-vertical {
+    height: 100px;
+    margin-top: 14px;
+    border-right: 1px solid black;
+     margin-right:-12px;
+
+  }
+
+  .titulo{
+    margin-left: 7em;
+  }
+
+  .header__text{
+    font-size:15px ;
+    font-weight: bolder;
+    text-decoration: underline  #FEBD2F;
+    margin-left: 25px;
+    }
+  }

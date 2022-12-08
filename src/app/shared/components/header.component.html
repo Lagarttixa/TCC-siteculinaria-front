@@ -1,6 +1,6 @@
 <header>
   <div class="header-container">
-    <img class="logo-direito" src="../../../../assets/logo-direito.svg" alt="logo do site"/>
+    <img class="logo-direito" src="../../../../assets/logo-direito.svg" alt="logo do site" [routerLink]="['/']" />
     <div class="buscar">
       <mat-form-field appearance="outline">
           <mat-label>Pesquise uma receita ou ingrediente</mat-label>
@@ -9,7 +9,7 @@
       </mat-form-field>
     </div>
     <div class="botao">
-      <button mat-raised-button><mat-icon matSuffix>add_to_photos</mat-icon>Crie sua receita</button>
+      <button mat-raised-button [routerLink]="['/adiciona']" ><mat-icon matSuffix>add_to_photos</mat-icon>Crie sua receita</button>
 
     </div>
     <img class="logo-esquerdo" src="../../../../assets/logo-esquerdo.svg" alt="logo do site" />

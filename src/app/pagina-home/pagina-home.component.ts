@@ -1,21 +1,20 @@
-import { HomeService } from './server/homeService.service';
-import { HomeModel } from './model/homeModel';
 import { Component, OnInit } from '@angular/core';
+import { ReceitaService } from '../services/receitaService.service';
+import { ReceitasModel } from '../model/ReceitasModel';
 
 @Component({
   selector: 'app-pagina-home',
   templateUrl: './pagina-home.component.html',
-  styleUrls: ['./pagina-home.component.css']
+  styleUrls: ['./pagina-home.component.css'],
 })
 export class PaginaHomeComponent implements OnInit {
-receita: HomeModel[] = [];
+  receitas: ReceitasModel[] = [];
 
-
-
-  constructor(private homeService: HomeService) { }
+  constructor(private receitaService: ReceitaService) {}
 
   ngOnInit(): void {
-   
+    this.receitaService.getAllReceitas().subscribe((data) => {
+      this.receitas = data;
+    });
   }
-
 }
